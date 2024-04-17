@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+* {
+    background-color: black;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Expletus Sans", sans-serif;
+
+}
+.container{
+    width: 1200px;
+    margin:  0 auto;
+}
+
+.hero{
+    position: relative;
+}
+header {
+    position: absolute;
+    left: 1160px;
+    text-align: right;
+    margin-right: 250px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 70px;
+}
+header a {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 140%;
+    color: #fff;
+}
+
+.heroBlock {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroImg{
+    max-width: 100% ;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.heroImg img {
+    border-radius: 77px;
+    width: 500px;
+}
+.heroText{
+    margin-right: 0;
+    color: white;
+    text-align: right;
+}
+.heroText h1 {
+    margin-top: 150px;
+    font-size: 60px;
+    line-height: 93%;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.heroText p {
+    margin-bottom: 40px;
+}
+p {
+    font-size: 37px;
+    line-height: 123%;
+    color: #fff;
+}
+.heroText button{
+    width: 261px;
+    height: 80px;
+    box-shadow: 0 4px 40px 0 #94a74c;
+    border-radius: 14px;
+    background: #94a74c;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 117%;
+    color: #fff;
+}
+h2{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 93%;
+    color: #fff;
+    margin-top: 120px;
+    margin-bottom: 30px;
+    text-align: left;
+    /*width: 680px;*/
+    border-bottom:  2px solid #94a74c ;
+
+}
+
+.ADABlock img{
+    margin-top: 100px;
+    width: 1200px;
+    height: auto;
+}
+.albumsBlock{
+    display: flex;
+    align-items: center;
+
+}
+.leftImages {
+    width: 730px;
+    height: 450px;
+    display: flex;
+    gap: 22px;
+    margin-top: 195px;
+}
+.leftImages img {
+    width: 124px;
+}
+
+.leftImg {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    row-gap: 22px;
+    column-gap: 22px;
+}
+
+.leftImg:nth-child(2) {
+    margin-top: 86px;
+}
+
+.leftImg:nth-child(3) {
+    margin-top: 123px;
+}
+
+.leftImg:nth-child(4) {
+    margin-top: 94px;
+}
+
+.leftImg:nth-child(5) {
+    margin-top: 228px;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+}
+.rightImg:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.rightImg:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightImg img {
+    width: 200px;
+}
+
+.rightImg1 img {
+    width: 420px;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70%;
+    color: #94a74c;
+}
+
+.concertsBlock {
+    display: flex;
+    flex-direction: column;
+    gap:55px;
+    margin-top: 120px;
+
+}
+
+.concertsDates {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #94a74c;
+    border-radius: 20px;
+    width: 1140px;
+    height: 108px;
+    margin: auto;
+}
+
+.concertsDates img {
+    position: absolute;
+    right: 60px;
+    top: 10px;
+    background-color: transparent;
+}
+.concertsDates p{
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 114%;
+    color: #fff;
+}
+
+.concertsDates button{
+    border: 3px solid #94a74c;
+    border-radius: 20px;
+    width: 280px;
+    height: 77px;
+    box-shadow: 0 4px 40px 0 #c1c87d;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 70%;
+    color: #fff;
+}
+
+.concertsDates:nth-child(3) button {
+    background-color: #94a74c;
+}
+
+.concertsDates:nth-child(4) button {
+    background-color: #94a74c;
+}
+
+.ordersBlock {
+    position: relative;
+    margin-top: 50px;
+    height: 950px;
+}
+.orderText1 {
+    font-weight: 600;
+    font-size: 110px;
+    line-height: 90%;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #fff;
+    background-color: #94a74c;
+    width: 1111px;
+    position: absolute;
+    top: 300px;
+    left: 44px;
+}
+
+.orderImg1 {
+    position: absolute;
+    top: 10px;
+    left: 235px;
+    background-color: transparent;
+}
+
+.orderImg2 {
+    position: absolute;
+    top: 330px;
+    left: 510px;
+    background-color: transparent;
+}
+
+.orderImg3 {
+    position: absolute;
+    background-color: transparent;
+    top: 870px;
+    left: 370px;
+
+}
+
+.ordersBlock button {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 334%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #94a74c;
+    position: absolute;
+    top: 870px;
+    left: 410px;
+    border:none;
+    outline: none;
+}
+
+footer {
+    position: relative;
+    background: #7a8592;
+    /*padding: 1px;*/
+}
+
+.footerBlock {
+    background: #7a8592;
+}
+.footerBlock h2 {
+    background: #7a8592;
+}
+
+.footerBlock p {
+    margin-top: 64px;
+    margin-bottom: 180px;
+    background: #7a8592;
+}
+
+.footerBlock span {
+    font-size: 37px;
+    line-height: 123%;
+    color: #fff;
+    background: #7a8592;
+}
+
+.signUp {
+     background: #7a8592;
+     position: absolute;
+     top: 150px;
+     left: 1090px;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+ }
+
+.signUp input {
+    border-radius: 14px;
+    width: 394px;
+    height: 70px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 184%;
+    color: #767676;
+    background: #d9d9d9;
+    padding-left: 10px;
+}
+
+.signUp button {
+    border-radius: 20px;
+    width: 256px;
+    height: 77px;
+    background: #3d7c90;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 105%;
+    color: #fff;
+    margin-left: 130px;
+}
+
